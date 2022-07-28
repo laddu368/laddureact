@@ -1,0 +1,25 @@
+.centered {
+    float: left;
+    color:rgb(255, 221, 0);
+position: absolute;
+top: 50%;
+left: 24%;
+transform: translate(-50%, -50%);
+}
+.head{
+    background-color: lightgreen;
+
+}
+.head h1{
+    text-align: center;
+}
+@media screen and (min-width:280px) and (max-width:991px){
+    car_banner{
+        display:none;
+    } 
+  }
+  @media screen and (min-width: 280px) and (max-width: 480px) {
+    .main{
+        width: 100%;
+    }
+  }
